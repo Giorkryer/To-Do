@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@400;600&display=swap');
+
+body{
+  background-color: #25294C;
+}
+.button-n-conta{
+  color: #27C498;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navigation{
+  background-color: #202342;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.autentic{
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600; 
+  color: white;
+}
+
+.users > p{
+  font-family: Karla;
+  color: white;
+}
+
+.email{
+  margin-bottom: 10px;
+}
+
+.password{
+  margin-bottom: 1.5vw;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.autenticandbox{
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.autenticandbox > .box{
+  height: 27.31px;
+  width: 7px;
+  background-color: #27C498;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.botao-entrar{
+  width: 315px;
+  height: 42px;
+  background-color: #27C498;
+  border-radius: 5px;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  cursor:pointer;
+}
+
+.email, .password{
+  width: 316px;
+  height: 38px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  background-color: #25294C;
+}
+
